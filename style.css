@@ -1,0 +1,212 @@
+body {
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url(./WhatsApp\ Image\ 2022-11-12\ at\ 18.38.04.jpeg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* menu de navbar */
+
+header {
+    width: 100%;
+    height: 230px;
+    background-color: #34b1b2;
+    border-bottom: 4px solid #2f9696;
+    border-top: 4px solid #2f9696;
+}
+
+header .logo {
+    color: white;
+    font-size: 1.5em;
+    margin: 25px 0;
+    text-align: center;
+
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 1.5em;
+    color: white;
+    margin: 0 15px;
+    position: relative;
+    top: 40px;
+
+}
+
+/* section */
+article #symbol {
+    width: 150px;
+    border-radius: 50%;
+    position: relative;
+    left: 680px;
+    top: 110px;
+    transition: 0.5s linear;
+}
+
+article #symbol:hover {
+    transform: rotate(40deg);
+}
+
+section h5 {
+    margin: 30px 0 25px 0;
+    text-align: center;
+    color: #66898c;
+    font-size: 3em;
+}
+
+section p {
+    font-size: 1.5em;
+    height: auto;
+    text-align: center;
+    width: 45%;
+    margin: 0 27.5%;
+    color: #66898c;
+    /* margin-bottom: 10px; */
+}
+
+/* Article */
+
+
+.article {
+    float: left;
+    width: 60%;
+    height: 1100px;
+    background-color: #D3EEEE;
+    margin: 20px 0 0 6.5%;
+}
+
+.aside {
+    float: right;
+    width: 25%;
+    height: 820px;
+    background-color: #34B1B2;
+    margin: 20px 6.5% 0 0;
+    border: 5px solid #2F9696;
+}
+
+.article h2 {
+    text-align: center;
+    color: #2F9696;
+    font-size: 3em;
+    margin-bottom: 40px;
+}
+
+.article h2 span {
+    color: #66898c
+}
+
+.article .COL1 {
+    float: left;
+    width: 400px;
+    margin-left: 30px;
+}
+
+article .COL1 img {
+    float: left; 
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+} 
+article .COL2 img {
+    float: left; 
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+} 
+
+.article .COL1 p {
+    float: right; 
+    font-size: 1.3em;
+    text-align: left;
+}
+
+.article .COL2 p {
+    float: right; 
+    font-size: 1.3em;
+    text-align: left;
+}
+
+.article .COL1 h3 {
+    width: 400px;
+    font-size: 2em;
+    color: #66898c;
+    text-align: center;
+}
+
+.article .COL2 {
+    float: right;
+    width: 400px;
+    margin-right: 30px;
+}
+
+.article .COL2 h3 {
+    width: 400px;
+    font-size: 2em;
+    color: #66898c;
+    text-align: center;
+
+}
+
+
+
+
+.article .COL1 button {
+    background-color: #34B1B2;
+    color: white;
+    padding: 12px 10px;
+    width: 130px;
+    float: right;
+    margin-top: 25px;
+    border: 2px solid #34B1B2;
+    font-size: 1em;
+}
+
+.article .COL2 button {
+    background-color: #34B1B2;
+    color: white;
+    padding: 12px 10px;
+    width: 130px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 25px;
+    border: 2px solid #34B1B2;
+    font-size: 1em;
+
+}
+
+/* Aside  */
+article .aside h3 {
+    font-size: 1.8em;
+    color: white;
+    margin-left: 20px;
+
+}
+
+article .aside p {
+    text-align: left;
+    font-size: 1.3em;
+    color: white;
+    margin-left: 20px;
+}
+
+
+/* footer */
+
+
+footer {
+    width: 100%;
+    display: inline-block;
+}
+
+img {
+    width: 3%;
+    margin: 15px 47% 5px 47%;
+
+}
